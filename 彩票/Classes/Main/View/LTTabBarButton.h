@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  LTTabBarButton.h
 //  彩票
 //
 //  Created by wangjianwei on 15/12/1.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface LTTabBarButton : UIButton
 
 @end
-

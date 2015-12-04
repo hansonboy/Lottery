@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  彩票
+//
+//  Created by wangjianwei on 15/12/3.
+//  Copyright (c) 2015年 JW. All rights reserved.
+//
+
+#ifndef ___PrefixHeader_pch
+#define ___PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#include "DSTool.h"
+#define colorWith(a,b,c) ([UIColor colorWithRed:a/255.0 green:b/255.0 blue:c/255.0 alpha:1])
+
+#endif

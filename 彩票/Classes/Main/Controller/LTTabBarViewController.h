@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LTTabBarViewController.h
 //  彩票
 //
 //  Created by wangjianwei on 15/12/1.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface LTTabBarViewController : UITabBarController
 
 @end
-
