@@ -27,8 +27,12 @@
     if (self.switchOption) {
         self.switchOption(sender);
     }
-    [[NSUserDefaults standardUserDefaults]setBool:sender.on forKey:self.title];
-    [[NSUserDefaults standardUserDefaults]synchronize];
+    if (self.title.length !=0) {
+        
+        [[NSUserDefaults standardUserDefaults]setBool:sender.on forKey:self.title];
+        [[NSUserDefaults standardUserDefaults]synchronize];
+        
+    }
 }
 +(instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title{
     LTSettingSwitchItem *item = [super itemWithIcon:icon title:title];
@@ -43,6 +47,11 @@
 +(instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title option:(CallBack)option switchOption:(LTSettingSwitchItemOption)switchOption{
     LTSettingSwitchItem *item = [self itemWithIcon:icon title:title option:option];
     item.switchOption = switchOption;
+    return item;
+}
++(instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title destVcClass:(Class)destVcClass{
+    LTSettingSwitchItem *item = [super itemWithIcon:icon title:title destVcClass:destVcClass];
+    item.view = item.switcher;
     return item;
 }
 @end

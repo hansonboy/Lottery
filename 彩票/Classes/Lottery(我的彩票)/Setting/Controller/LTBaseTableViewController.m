@@ -122,6 +122,12 @@
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     LTSettingItem *item = [self.groups[indexPath.section]items][indexPath.row];
     if(item.option)item.option();
+    if (item.destVcClass) {
+        UIViewController *destVc = [[[item.destVcClass class]alloc]init];
+        destVc.title = item.title;
+        [self.navigationController pushViewController:destVc animated:YES];
+        
+    }
 }
 -(NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
     return [self.groups[section] header];

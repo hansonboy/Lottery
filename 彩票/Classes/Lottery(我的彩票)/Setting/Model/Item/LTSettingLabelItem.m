@@ -45,4 +45,9 @@
     item.labelOption = labelOption;
     return item;
 }
++(instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title destVcClass:(Class)destVcClass{
+    LTSettingLabelItem *item = [super itemWithIcon:icon title:title destVcClass:destVcClass];
+    item.view = item.rightBtn;
+    return item;
+}
 @end

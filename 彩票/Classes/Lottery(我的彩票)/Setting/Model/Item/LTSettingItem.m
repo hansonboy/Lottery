@@ -26,4 +26,9 @@
         item.option = option;
     return item;
 }
++(instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title destVcClass:(Class)destVcClass{
+    LTSettingItem *item = [self itemWithIcon:icon title:title];
+    item.destVcClass = destVcClass;
+    return item;
+}
 @end

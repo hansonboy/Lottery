@@ -20,11 +20,7 @@
 }
 -(void)setupGroup{
     LTSettingGroup *group1 = [LTSettingGroup groupWithHeader:@"changge" footer:@"asd"];
-    [group1 addItem:[LTSettingArrowItem itemWithIcon:@"MorePush" title:@"推送和提醒" option:^{
-        PushNotificationViewController *pushNoti = [PushNotificationViewController controller];
-        pushNoti.title = @"推送和提醒";
-        [self.navigationController pushViewController:pushNoti animated:YES];
-    }]];
+    [group1 addItem:[LTSettingArrowItem itemWithIcon:@"MorePush" title:@"推送和提醒" destVcClass:[PushNotificationViewController class]]];
     [group1 addItem:[LTSettingSwitchItem itemWithIcon:@"handShake" title:@"摇一摇机选"]];
     [group1 addItem:[LTSettingSwitchItem itemWithIcon:@"sound_Effect" title:@"声音效果"]];
     

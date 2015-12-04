@@ -10,6 +10,7 @@
 #import "LotteryNumPushViewController.h"
 #import "LTLotteryAnimationViewController.h"
 #import "LTScoreViewController.h"
+
 @interface PushNotificationViewController ()
 
 @end
@@ -18,19 +19,10 @@
 
 -(void)setupGroup{
     LTSettingGroup *group1 = [LTSettingGroup group];
-    [group1 addItem:[LTSettingArrowItem itemWithIcon:nil title:@"开奖号码推送" option:^{
-        LotteryNumPushViewController *lnPush = [LotteryNumPushViewController controller];
-        [self.navigationController pushViewController:lnPush animated:YES];
-    }]];
-    [group1 addItem:[LTSettingArrowItem itemWithIcon:nil title:@"中奖动画" option:^{
-        LTLotteryAnimationViewController *lAnimation = [LTLotteryAnimationViewController controller];
-        [self.navigationController pushViewController:lAnimation animated:YES];
-    }]];
-    [group1 addItem:[LTSettingArrowItem itemWithIcon:nil title:@"比分直播提醒" option:^{
-        LTScoreViewController *score = [LTScoreViewController controller];
-        [self.navigationController pushViewController:score animated:YES];
-    }]];
-    [group1 addItem:[LTSettingArrowItem itemWithIcon:nil title:@"购彩定时提醒"]];
+    [group1 addItem:[LTSettingArrowItem itemWithIcon:nil title:@"开奖号码推送" destVcClass:[LotteryNumPushViewController class]]];
+    [group1 addItem:[LTSettingArrowItem itemWithIcon:nil title:@"中奖动画" destVcClass:[LTLotteryAnimationViewController class]]];
+    [group1 addItem:[LTSettingArrowItem itemWithIcon:nil title:@"比分直播提醒" destVcClass:[LTScoreViewController class]]];
+    [group1 addItem:[LTSettingArrowItem itemWithIcon:nil title:@"购彩定时提醒" ]];
     [self.groups addObject:group1];
 }
 
