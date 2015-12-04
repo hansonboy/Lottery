@@ -16,6 +16,7 @@
 @implementation LoginViewController
 - (IBAction)clickBtn:(UIBarButtonItem *)sender {
     LTSettingTableViewController *setting = [[LTSettingTableViewController alloc]init];
+    setting.title = @"设置";
     [self.navigationController pushViewController:setting animated:YES];
 }
 

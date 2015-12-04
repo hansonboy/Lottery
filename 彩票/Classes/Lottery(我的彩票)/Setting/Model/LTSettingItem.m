@@ -9,7 +9,12 @@
 #import "LTSettingItem.h"
 
 @implementation LTSettingItem
-
+-(instancetype)init{
+    if (self = [super init ]) {
+    
+    }
+    return self;
+}
 +(instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title{
     LTSettingItem *item = [[self alloc]init];
     item.icon = icon;

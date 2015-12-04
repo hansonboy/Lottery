@@ -13,23 +13,18 @@
 @implementation LTSettingArrowItem
 -(UIButton*)btn{
     if (_btn == nil) {
-        _btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 44, 40)];
+        _btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 10, 40)];
         [_btn setImage:[UIImage imageNamed:@"CellArrow"] forState:UIControlStateNormal];
 //        _btn.enabled = NO;
 //        _btn.backgroundColor = [UIColor redColor];
     }
     return _btn;
 }
-+(instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title{
-    LTSettingArrowItem *item = [[self alloc]init];
-    item.icon = icon;
-    item.title = title;
-    item.view = item.btn;
-    return item;
+-(instancetype)init{
+    if (self = [super init]) {
+        self.view = self.btn;
+    }
+    return self;
 }
-+(instancetype)itemWithIcon:(NSString *)icon title:(NSString *)title option:(CallBack)option{
-    LTSettingArrowItem *item = [super itemWithIcon:icon title:title option:option];
-    item.view = item.btn;
-    return item;
-}
+
 @end

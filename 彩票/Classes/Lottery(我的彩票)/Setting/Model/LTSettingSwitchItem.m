@@ -17,7 +17,10 @@
         _switcher = [[UISwitch alloc]init];
         [_switcher addTarget:self action:@selector(valueChanged:) forControlEvents:UIControlEventValueChanged];
     }
-    _switcher.on = [[NSUserDefaults standardUserDefaults]boolForKey:self.title];
+    if (self.title.length != 0) {
+        _switcher.on = [[NSUserDefaults standardUserDefaults]boolForKey:self.title];
+        
+    }
     return _switcher;
 }
 -(void)valueChanged:(UISwitch*)sender{
