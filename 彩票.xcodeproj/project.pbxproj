@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB0F6D481C12D7C9006CA80D /* LTShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0F6D471C12D7C9006CA80D /* LTShareViewController.m */; };
 		CB13F8251C0D48AD007C137F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB13F8231C0D48AD007C137F /* Main.storyboard */; };
 		CB13F8271C0D48AD007C137F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB13F8261C0D48AD007C137F /* Assets.xcassets */; };
 		CB13F8351C0D48AD007C137F /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13F8341C0D48AD007C137F /* __Tests.m */; };
@@ -16,7 +17,6 @@
 		CB13F8741C0D913C007C137F /* LTTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13F8731C0D913C007C137F /* LTTabBarViewController.m */; };
 		CB13F87A1C0D9617007C137F /* LTTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13F8791C0D9617007C137F /* LTTabBar.m */; };
 		CB13F87D1C0D969D007C137F /* LTTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13F87C1C0D969D007C137F /* LTTabBarButton.m */; };
-		CB15F6051C114FF300F8BDB3 /* LTBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F6041C114FF300F8BDB3 /* LTBaseTableViewController.m */; };
 		CB15F6371C1174C800F8BDB3 /* LotteryNumPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F6301C1174C800F8BDB3 /* LotteryNumPushViewController.m */; };
 		CB15F6381C1174C800F8BDB3 /* LTLotteryAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F6321C1174C800F8BDB3 /* LTLotteryAnimationViewController.m */; };
 		CB15F6391C1174C800F8BDB3 /* LTScoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F6341C1174C800F8BDB3 /* LTScoreViewController.m */; };
@@ -27,6 +27,14 @@
 		CB15F64F1C11CF4B00F8BDB3 /* LTSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F6481C11CF4B00F8BDB3 /* LTSettingItem.m */; };
 		CB15F6501C11CF4B00F8BDB3 /* LTSettingLabelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F64A1C11CF4B00F8BDB3 /* LTSettingLabelItem.m */; };
 		CB15F6511C11CF4B00F8BDB3 /* LTSettingSwitchItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F64C1C11CF4B00F8BDB3 /* LTSettingSwitchItem.m */; };
+		CB15F6571C11D08B00F8BDB3 /* LTBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F6541C11D08B00F8BDB3 /* LTBaseTableViewController.m */; };
+		CB15F6581C11D08B00F8BDB3 /* LTSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F6561C11D08B00F8BDB3 /* LTSettingTableViewController.m */; };
+		CB15F6601C11D0FA00F8BDB3 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F65C1C11D0FA00F8BDB3 /* MBProgressHUD+MJ.m */; };
+		CB15F6611C11D0FA00F8BDB3 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CB15F65D1C11D0FA00F8BDB3 /* MBProgressHUD.bundle */; };
+		CB15F6621C11D0FA00F8BDB3 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F65F1C11D0FA00F8BDB3 /* MBProgressHUD.m */; };
+		CB15F6691C11DE2F00F8BDB3 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F6681C11DE2F00F8BDB3 /* HelpViewController.m */; };
+		CB15F66D1C11DE9200F8BDB3 /* LTHelpItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F66C1C11DE9200F8BDB3 /* LTHelpItem.m */; };
+		CB15F6701C11E53000F8BDB3 /* LTHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB15F66F1C11E53000F8BDB3 /* LTHtmlViewController.m */; };
 		CB5B3DD81C10591700FA27E7 /* cywt.json in Resources */ = {isa = PBXBuildFile; fileRef = CB5B3DB81C10591700FA27E7 /* cywt.json */; };
 		CB5B3DD91C10591700FA27E7 /* products.json in Resources */ = {isa = PBXBuildFile; fileRef = CB5B3DB91C10591700FA27E7 /* products.json */; };
 		CB5B3DDA1C10591700FA27E7 /* bjdc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = CB5B3DBB1C10591700FA27E7 /* bjdc_howto.html */; };
@@ -63,7 +71,6 @@
 		CB8893D51C10217400F3A73E /* LTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8893D41C10217400F3A73E /* LTNavigationController.m */; };
 		CB89967A1C10399C00C803E9 /* UIImage+Resizable.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8996791C10399C00C803E9 /* UIImage+Resizable.m */; };
 		CB8996851C10435300C803E9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89967E1C10435300C803E9 /* LoginViewController.m */; };
-		CB8996881C1043B300C803E9 /* LTSettingTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8996871C1043B300C803E9 /* LTSettingTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +91,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB0F6D461C12D7C9006CA80D /* LTShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTShareViewController.h; sourceTree = "<group>"; };
+		CB0F6D471C12D7C9006CA80D /* LTShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTShareViewController.m; sourceTree = "<group>"; };
 		CB13F8171C0D48AD007C137F /* 彩票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB13F8241C0D48AD007C137F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB13F8261C0D48AD007C137F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,8 +112,6 @@
 		CB13F8791C0D9617007C137F /* LTTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBar.m; sourceTree = "<group>"; };
 		CB13F87B1C0D969D007C137F /* LTTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTabBarButton.h; sourceTree = "<group>"; };
 		CB13F87C1C0D969D007C137F /* LTTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTabBarButton.m; sourceTree = "<group>"; };
-		CB15F6031C114FF300F8BDB3 /* LTBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTBaseTableViewController.h; sourceTree = "<group>"; };
-		CB15F6041C114FF300F8BDB3 /* LTBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTBaseTableViewController.m; sourceTree = "<group>"; };
 		CB15F62F1C1174C800F8BDB3 /* LotteryNumPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryNumPushViewController.h; sourceTree = "<group>"; };
 		CB15F6301C1174C800F8BDB3 /* LotteryNumPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryNumPushViewController.m; sourceTree = "<group>"; };
 		CB15F6311C1174C800F8BDB3 /* LTLotteryAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTLotteryAnimationViewController.h; sourceTree = "<group>"; };
@@ -125,6 +132,21 @@
 		CB15F64A1C11CF4B00F8BDB3 /* LTSettingLabelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSettingLabelItem.m; sourceTree = "<group>"; };
 		CB15F64B1C11CF4B00F8BDB3 /* LTSettingSwitchItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSettingSwitchItem.h; sourceTree = "<group>"; };
 		CB15F64C1C11CF4B00F8BDB3 /* LTSettingSwitchItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSettingSwitchItem.m; sourceTree = "<group>"; };
+		CB15F6531C11D08B00F8BDB3 /* LTBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTBaseTableViewController.h; sourceTree = "<group>"; };
+		CB15F6541C11D08B00F8BDB3 /* LTBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTBaseTableViewController.m; sourceTree = "<group>"; };
+		CB15F6551C11D08B00F8BDB3 /* LTSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSettingTableViewController.h; sourceTree = "<group>"; };
+		CB15F6561C11D08B00F8BDB3 /* LTSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSettingTableViewController.m; sourceTree = "<group>"; };
+		CB15F65B1C11D0FA00F8BDB3 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		CB15F65C1C11D0FA00F8BDB3 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		CB15F65D1C11D0FA00F8BDB3 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		CB15F65E1C11D0FA00F8BDB3 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		CB15F65F1C11D0FA00F8BDB3 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CB15F6671C11DE2F00F8BDB3 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
+		CB15F6681C11DE2F00F8BDB3 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
+		CB15F66B1C11DE9200F8BDB3 /* LTHelpItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTHelpItem.h; sourceTree = "<group>"; };
+		CB15F66C1C11DE9200F8BDB3 /* LTHelpItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTHelpItem.m; sourceTree = "<group>"; };
+		CB15F66E1C11E53000F8BDB3 /* LTHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTHtmlViewController.h; sourceTree = "<group>"; };
+		CB15F66F1C11E53000F8BDB3 /* LTHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTHtmlViewController.m; sourceTree = "<group>"; };
 		CB5B3DB81C10591700FA27E7 /* cywt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cywt.json; sourceTree = "<group>"; };
 		CB5B3DB91C10591700FA27E7 /* products.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = products.json; sourceTree = "<group>"; };
 		CB5B3DBB1C10591700FA27E7 /* bjdc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bjdc_howto.html; sourceTree = "<group>"; };
@@ -166,8 +188,6 @@
 		CB8996791C10399C00C803E9 /* UIImage+Resizable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resizable.m"; sourceTree = "<group>"; };
 		CB89967D1C10435300C803E9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		CB89967E1C10435300C803E9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		CB8996861C1043B300C803E9 /* LTSettingTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSettingTableViewController.h; sourceTree = "<group>"; };
-		CB8996871C1043B300C803E9 /* LTSettingTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSettingTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +215,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CB0F6D451C12D7A1006CA80D /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				CB0F6D461C12D7C9006CA80D /* LTShareViewController.h */,
+				CB0F6D471C12D7C9006CA80D /* LTShareViewController.m */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
 		CB13F80E1C0D48AD007C137F = {
 			isa = PBXGroup;
 			children = (
@@ -413,6 +442,7 @@
 		CB13F8651C0D7F05007C137F /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				CB15F6591C11D0F200F8BDB3 /* lib */,
 				CB15F63E1C11782300F8BDB3 /* Tool */,
 				CB8996771C10398E00C803E9 /* Catogery */,
 				CB13F8661C0D7F05007C137F /* AppDelegate.h */,
@@ -492,6 +522,57 @@
 				CB15F64C1C11CF4B00F8BDB3 /* LTSettingSwitchItem.m */,
 			);
 			path = Item;
+			sourceTree = "<group>";
+		};
+		CB15F6521C11D08B00F8BDB3 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				CB15F6531C11D08B00F8BDB3 /* LTBaseTableViewController.h */,
+				CB15F6541C11D08B00F8BDB3 /* LTBaseTableViewController.m */,
+				CB15F6551C11D08B00F8BDB3 /* LTSettingTableViewController.h */,
+				CB15F6561C11D08B00F8BDB3 /* LTSettingTableViewController.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		CB15F6591C11D0F200F8BDB3 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				CB15F65A1C11D0FA00F8BDB3 /* MBProgressHUD */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		CB15F65A1C11D0FA00F8BDB3 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				CB15F65B1C11D0FA00F8BDB3 /* MBProgressHUD+MJ.h */,
+				CB15F65C1C11D0FA00F8BDB3 /* MBProgressHUD+MJ.m */,
+				CB15F65D1C11D0FA00F8BDB3 /* MBProgressHUD.bundle */,
+				CB15F65E1C11D0FA00F8BDB3 /* MBProgressHUD.h */,
+				CB15F65F1C11D0FA00F8BDB3 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		CB15F6661C11DE2F00F8BDB3 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				CB15F6671C11DE2F00F8BDB3 /* HelpViewController.h */,
+				CB15F6681C11DE2F00F8BDB3 /* HelpViewController.m */,
+				CB15F66E1C11E53000F8BDB3 /* LTHtmlViewController.h */,
+				CB15F66F1C11E53000F8BDB3 /* LTHtmlViewController.m */,
+			);
+			path = Help;
+			sourceTree = "<group>";
+		};
+		CB15F66A1C11DE4700F8BDB3 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				CB15F66B1C11DE9200F8BDB3 /* LTHelpItem.h */,
+				CB15F66C1C11DE9200F8BDB3 /* LTHelpItem.m */,
+			);
+			path = Help;
 			sourceTree = "<group>";
 		};
 		CB5B3DB71C10591700FA27E7 /* Data */ = {
@@ -596,11 +677,10 @@
 		CB8996821C10435300C803E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CB0F6D451C12D7A1006CA80D /* Share */,
+				CB15F6661C11DE2F00F8BDB3 /* Help */,
+				CB15F6521C11D08B00F8BDB3 /* Setting */,
 				CB15F62E1C1174C800F8BDB3 /* PushNotification */,
-				CB8996861C1043B300C803E9 /* LTSettingTableViewController.h */,
-				CB8996871C1043B300C803E9 /* LTSettingTableViewController.m */,
-				CB15F6031C114FF300F8BDB3 /* LTBaseTableViewController.h */,
-				CB15F6041C114FF300F8BDB3 /* LTBaseTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -608,6 +688,7 @@
 		CB8996831C10435300C803E9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CB15F66A1C11DE4700F8BDB3 /* Help */,
 				CB15F6421C11CF4B00F8BDB3 /* Item */,
 			);
 			path = Model;
@@ -707,6 +788,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = CB13F80E1C0D48AD007C137F;
 			productRefGroup = CB13F8181C0D48AD007C137F /* Products */;
@@ -752,6 +834,7 @@
 				CB5B3DDD1C10591700FA27E7 /* dlt_howto.html in Resources */,
 				CB5B3DDA1C10591700FA27E7 /* bjdc_howto.html in Resources */,
 				CB5B3DE51C10591700FA27E7 /* jxssc_howto.html in Resources */,
+				CB15F6611C11D0FA00F8BDB3 /* MBProgressHUD.bundle in Resources */,
 				CB5B3DDB1C10591700FA27E7 /* coupon_help.html in Resources */,
 				CB5B3DF41C10591700FA27E7 /* x3d_howto.html in Resources */,
 				CB5B3DE81C10591700FA27E7 /* k3_howto.html in Resources */,
@@ -785,21 +868,27 @@
 			files = (
 				CB15F63A1C1174C800F8BDB3 /* PushNotificationViewController.m in Sources */,
 				CB15F6501C11CF4B00F8BDB3 /* LTSettingLabelItem.m in Sources */,
+				CB15F6621C11D0FA00F8BDB3 /* MBProgressHUD.m in Sources */,
+				CB15F6571C11D08B00F8BDB3 /* LTBaseTableViewController.m in Sources */,
 				CB8996851C10435300C803E9 /* LoginViewController.m in Sources */,
 				CB15F6411C11784000F8BDB3 /* DSTool.m in Sources */,
-				CB8996881C1043B300C803E9 /* LTSettingTableViewController.m in Sources */,
 				CB13F87D1C0D969D007C137F /* LTTabBarButton.m in Sources */,
+				CB0F6D481C12D7C9006CA80D /* LTShareViewController.m in Sources */,
 				CB13F8741C0D913C007C137F /* LTTabBarViewController.m in Sources */,
+				CB15F6581C11D08B00F8BDB3 /* LTSettingTableViewController.m in Sources */,
 				CB15F64F1C11CF4B00F8BDB3 /* LTSettingItem.m in Sources */,
 				CB5B3DFB1C10867800FA27E7 /* SettingItemCell.m in Sources */,
 				CB13F87A1C0D9617007C137F /* LTTabBar.m in Sources */,
-				CB15F6051C114FF300F8BDB3 /* LTBaseTableViewController.m in Sources */,
+				CB15F66D1C11DE9200F8BDB3 /* LTHelpItem.m in Sources */,
 				CB89967A1C10399C00C803E9 /* UIImage+Resizable.m in Sources */,
 				CB15F6391C1174C800F8BDB3 /* LTScoreViewController.m in Sources */,
+				CB15F6691C11DE2F00F8BDB3 /* HelpViewController.m in Sources */,
 				CB15F6371C1174C800F8BDB3 /* LotteryNumPushViewController.m in Sources */,
 				CB13F86F1C0D7F05007C137F /* main.m in Sources */,
 				CB13F86E1C0D7F05007C137F /* AppDelegate.m in Sources */,
+				CB15F6601C11D0FA00F8BDB3 /* MBProgressHUD+MJ.m in Sources */,
 				CB15F6511C11CF4B00F8BDB3 /* LTSettingSwitchItem.m in Sources */,
+				CB15F6701C11E53000F8BDB3 /* LTHtmlViewController.m in Sources */,
 				CB15F64E1C11CF4B00F8BDB3 /* LTSettingGroup.m in Sources */,
 				CB15F64D1C11CF4B00F8BDB3 /* LTSettingArrowItem.m in Sources */,
 				CB8893D51C10217400F3A73E /* LTNavigationController.m in Sources */,
@@ -943,6 +1032,10 @@
 				INFOPLIST_FILE = "彩票/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/彩票/Classes/Other/lib/UMSocial_Sdk_4.4",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JW.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -960,6 +1053,10 @@
 				INFOPLIST_FILE = "彩票/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/彩票/Classes/Other/lib/UMSocial_Sdk_4.4",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JW.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;

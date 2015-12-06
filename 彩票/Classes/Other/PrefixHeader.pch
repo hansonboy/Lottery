@@ -13,5 +13,5 @@
 // You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 #include "DSTool.h"
 #define colorWith(a,b,c) ([UIColor colorWithRed:a/255.0 green:b/255.0 blue:c/255.0 alpha:1])
-
+#define iOS8Above ([UIDevice currentDevice].systemVersion.floatValue > 8.0)
 #endif

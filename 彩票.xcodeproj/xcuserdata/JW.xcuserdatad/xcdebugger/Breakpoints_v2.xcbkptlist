@@ -9,13 +9,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Model/LTSettingArrowItem.m"
-            timestampString = "470925584.492656"
+            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Controller/Help/HelpViewController.m"
+            timestampString = "470933940.842181"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
-            landmarkName = "-btn"
+            startingLineNumber = "19"
+            endingLineNumber = "19"
+            landmarkName = "-setupGroup"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -25,13 +25,29 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Model/LTSettingArrowItem.m"
-            timestampString = "470847893.571731"
+            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Controller/Help/HelpViewController.m"
+            timestampString = "470933987.387251"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "-setupGroup"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Model/Help/LTHelpItem.m"
+            timestampString = "470934145.008484"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "16"
             endingLineNumber = "16"
-            landmarkName = "-btn"
+            landmarkName = "+items"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -41,13 +57,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/View/SettingItemCell.m"
-            timestampString = "470895024.061039"
+            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Controller/Help/HelpViewController.m"
+            timestampString = "470938486.985484"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "31"
-            endingLineNumber = "31"
-            landmarkName = "-setItem:"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-setupGroup"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -57,13 +73,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/View/SettingItemCell.m"
-            timestampString = "470895024.061039"
+            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Controller/Help/LTHtmlViewController.m"
+            timestampString = "470937822.483384"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
-            landmarkName = "-setItem:"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -73,13 +89,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Model/LTSettingLabelItem.m"
-            timestampString = "470925446.780012"
+            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Controller/Help/LTHtmlViewController.m"
+            timestampString = "470937822.483384"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "46"
-            endingLineNumber = "46"
-            landmarkName = "+itemWithIcon:title:option:labelOption:"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "-webView"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -89,45 +105,13 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Controller/PushNotification/LTScoreViewController.m"
-            timestampString = "470914020.695192"
+            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Controller/Help/LTHtmlViewController.m"
+            timestampString = "470937822.483384"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "45"
-            endingLineNumber = "45"
-            landmarkName = "-setupBtn:item:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/Controller/PushNotification/LTScoreViewController.m"
-            timestampString = "470914020.695192"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "-setupBtn:item:"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "&#x5f69;&#x7968;/Classes/Lottery(&#x6211;&#x7684;&#x5f69;&#x7968;)/Setting/View/SettingItemCell.m"
-            timestampString = "470924737.449905"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "34"
-            endingLineNumber = "34"
-            landmarkName = "-setItem:"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "-viewDidLoad"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

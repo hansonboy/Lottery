@@ -40,17 +40,18 @@
     self.tableView.sectionFooterHeight = 1;
     self.tableView.sectionHeaderHeight = 25;
     //    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
+    self.tableView.contentInset = UIEdgeInsetsMake(-20, 0, 0, 0);
 #warning 如今存在的问题： UITableViewCell 整体靠下，上面留有空白
 }
 -(void)setupGroup{
-    LTSettingGroup *group1 = [LTSettingGroup groupWithHeader:@"changge" footer:nil];
+    LTSettingGroup *group1 = [LTSettingGroup group];
     [group1 addItem:[LTSettingArrowItem itemWithIcon:@"MorePush" title:@"推送和提醒" option:^{
        
     }]];
     [group1 addItem:[LTSettingSwitchItem itemWithIcon:@"handShake" title:@"摇一摇机选"]];
     [group1 addItem:[LTSettingSwitchItem itemWithIcon:@"sound_Effect" title:@"声音效果"]];
     
-    LTSettingGroup *group2 = [LTSettingGroup groupWithHeader:@"changge" footer:@""];
+    LTSettingGroup *group2 = [LTSettingGroup group];
     [group2 addItem:[LTSettingArrowItem itemWithIcon:@"MoreUpdate" title:@"检测新版本"]];
     [group2 addItem:[LTSettingArrowItem itemWithIcon:@"MoreHelp" title:@"帮助"]];
     [group2 addItem:[LTSettingArrowItem itemWithIcon:@"MoreShare" title:@"分享"]];
@@ -89,36 +90,10 @@
     LTSettingGroup *group = self.groups[indexPath.section];
     LTSettingSwitchItem *item = group.items[indexPath.row];
     cell.item = item;
-    /*
-     static NSString *identifier = @"cell";
-     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
-     if (cell == nil) {
-     cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
-     UIView *selectedBackgroundView = [[UIView alloc]initWithFrame:cell.bounds];
-     selectedBackgroundView.backgroundColor = colorWith(237, 233, 218);
-     cell.selectedBackgroundView = selectedBackgroundView;
-     }
-     cell.imageView.image = [UIImage imageNamed:item.icon];
-     cell.textLabel.text = item.title;
-     cell.accessoryView = item.view;
-     */
+
     return cell;
 }
-//-(UIView*)tableView:(UITableView *)tableView viewForFooterInSection:(NSInteger)section{
-//    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, 0, tableView.bounds.size.width, 1)];
-//    view.backgroundColor = [UIColor blackColor];
-//    view.alpha = 0.05;
-//    return view;
-//}
-//-(UIView*)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section{
-//    UIView *view = [[UIView alloc]initWithFrame:CGRectMake(0, tableView.sectionHeaderHeight-1, tableView.bounds.size.width, 1)];
-//    view.backgroundColor = [UIColor blackColor];
-//    view.alpha = 0.05;
-//    UIView *mainView = [[UIView alloc]initWithFrame:CGRectMake(0, 0, tableView.bounds.size.width, tableView.sectionHeaderHeight)];
-//    mainView.backgroundColor = [UIColor clearColor];
-//    [mainView addSubview:view];
-//    return  mainView;
-//}
+
 -(void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
     LTSettingItem *item = [self.groups[indexPath.section]items][indexPath.row];
     if(item.option)item.option();
@@ -126,7 +101,6 @@
         UIViewController *destVc = [[[item.destVcClass class]alloc]init];
         destVc.title = item.title;
         [self.navigationController pushViewController:destVc animated:YES];
-        
     }
 }
 -(NSString*)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
