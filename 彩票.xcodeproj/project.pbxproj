@@ -1035,6 +1035,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/彩票/Classes/Other/lib/UMSocial_Sdk_4.4",
+					"$(PROJECT_DIR)/彩票/Classes/Other/lib/UMSocial_Sdk_4.1",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JW.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1056,6 +1057,7 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/彩票/Classes/Other/lib/UMSocial_Sdk_4.4",
+					"$(PROJECT_DIR)/彩票/Classes/Other/lib/UMSocial_Sdk_4.1",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JW.--";
 				PRODUCT_NAME = "$(TARGET_NAME)";
