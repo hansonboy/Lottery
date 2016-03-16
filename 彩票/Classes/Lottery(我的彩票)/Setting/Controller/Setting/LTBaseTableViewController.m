@@ -88,7 +88,7 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     SettingItemCell *cell = [SettingItemCell cellWithTableView:tableView];
     LTSettingGroup *group = self.groups[indexPath.section];
-    LTSettingSwitchItem *item = group.items[indexPath.row];
+    LTSettingItem *item = group.items[indexPath.row];
     cell.item = item;
 
     return cell;

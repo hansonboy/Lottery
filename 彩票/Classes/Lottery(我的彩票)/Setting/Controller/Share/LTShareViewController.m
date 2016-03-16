@@ -8,6 +8,7 @@
 
 #import "LTShareViewController.h"
 #import <MessageUI/MessageUI.h>
+//#import "UMSocial.h"
 @interface LTShareViewController ()<MFMessageComposeViewControllerDelegate,MFMailComposeViewControllerDelegate>
 
 @end
@@ -17,27 +18,30 @@
 -(void)setupGroup{
     LTSettingGroup *group1 = [LTSettingGroup group];
     [group1 addItem:[LTSettingArrowItem itemWithIcon:@"WeiboSina" title:@"新浪分享" option:^{
-
+//        [UMSocialSnsService  presentSnsController:self appKey:@"566432c7e0f55a5de0007064" shareText:@"henllo" shareImage:nil shareToSnsNames:@[UMShareToSina] delegate:self];
+//        [UMSocialSnsService presentSnsIconSheetView:self appKey:@"566432c7e0f55a5de0007064" shareText:@"asdf" shareImage:nil shareToSnsNames:@[UMShareToSina] delegate:self];
         
     }]];
     [group1 addItem:[LTSettingArrowItem itemWithIcon:@"SmsShare" title:@"短信分享" option:^{
         if([MFMessageComposeViewController canSendText]){
-            MFMessageComposeViewController *smsController = [[MFMessageComposeViewController alloc]initWithRootViewController:self];
+            MFMessageComposeViewController *smsController = [[MFMessageComposeViewController alloc]init];
             smsController.messageComposeDelegate = self;
-            smsController.body = @"asd";
+            smsController.body = @"这是一个测试文本";
+            smsController.recipients = @[@"18583878680"];
+//            [smsController addAttachmentURL:<#(NSURL *)#> withAlternateFilename:<#(NSString *)#>]
             if([MFMessageComposeViewController canSendSubject])smsController.subject = @"asfdasfa";
             [self presentViewController:smsController animated:YES completion:nil];
         }
         
-    }]];
+    }]]; 
     [group1 addItem:[LTSettingArrowItem itemWithIcon:@"MailShare" title:@"邮件分享" option:^{
         if ([MFMailComposeViewController canSendMail]) {
-            MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc]initWithRootViewController:self];
+            MFMailComposeViewController *mailController = [[MFMailComposeViewController alloc]init];
             mailController.mailComposeDelegate = self;
-            [mailController setSubject:@"我们结婚吧"];
-            [mailController setToRecipients:@[@"哈哈",@"呼呼"]];
-            [mailController setCcRecipients:@[@"adfa"]];
-            [mailController setBccRecipients:@[@"daf"]];
+            [mailController setSubject:@"圣诞快乐"];
+            [mailController setToRecipients:@[@"jianwei2013@126.com"]];
+            [mailController setCcRecipients:@[@"jianwei2013@126.com"]];
+            [mailController setBccRecipients:@[@"jianwei2013@126.com"]];
             [mailController setMessageBody:@"啦啦啦啦啦啦啦啦啦啦了" isHTML:NO];
             [self presentViewController:mailController animated:YES completion:nil];
             /*

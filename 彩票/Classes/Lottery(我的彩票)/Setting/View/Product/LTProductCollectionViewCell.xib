@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="LTProductCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="80" height="80"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="饭饭" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wdw-X5-uId">
+                        <rect key="frame" x="0.0" y="57" width="80" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="apper" translatesAutoresizingMaskIntoConstraints="NO" id="G1k-wT-oiy">
+                        <rect key="frame" x="12" y="0.0" width="57" height="57"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="57" id="Pol-4r-f30"/>
+                            <constraint firstAttribute="width" constant="57" id="xf2-Gs-6mG"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="G1k-wT-oiy" secondAttribute="centerX" id="BSX-BG-5WP"/>
+                <constraint firstItem="wdw-X5-uId" firstAttribute="top" secondItem="G1k-wT-oiy" secondAttribute="bottom" id="I6S-xj-gwl"/>
+                <constraint firstAttribute="bottom" secondItem="wdw-X5-uId" secondAttribute="bottom" id="LUy-Ak-ShZ"/>
+                <constraint firstItem="wdw-X5-uId" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="X8F-dX-9iv"/>
+                <constraint firstItem="G1k-wT-oiy" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="aSH-tS-5Yq"/>
+                <constraint firstAttribute="trailing" secondItem="wdw-X5-uId" secondAttribute="trailing" id="kf9-RM-peu"/>
+            </constraints>
+            <size key="customSize" width="64" height="82"/>
+            <connections>
+                <outlet property="imageView" destination="G1k-wT-oiy" id="PPv-Ny-w39"/>
+                <outlet property="textLabel" destination="wdw-X5-uId" id="fI5-yi-mln"/>
+            </connections>
+            <point key="canvasLocation" x="361" y="407"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="apper" width="57" height="57"/>
+    </resources>
+</document>

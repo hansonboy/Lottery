@@ -8,12 +8,15 @@
 
 #import "LTSettingArrowItem.h"
 @interface LTSettingArrowItem()
-@property (strong,nonatomic)UIButton *btn;
+
+
+
 @end
 @implementation LTSettingArrowItem
--(UIButton*)btn{
+
+-(LTButton*)btn{
     if (_btn == nil) {
-        _btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 10, 40)];
+        _btn = [[LTButton alloc]initWithFrame:CGRectMake(0, 0, 12, 40)];
         [_btn setImage:[UIImage imageNamed:@"CellArrow"] forState:UIControlStateNormal];
 //        _btn.enabled = NO;
 //        _btn.backgroundColor = [UIColor redColor];

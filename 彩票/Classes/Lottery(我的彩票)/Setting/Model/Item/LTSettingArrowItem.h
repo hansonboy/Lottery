@@ -7,7 +7,9 @@
 //
 
 #import "LTSettingItem.h"
-
+#import "LTButton.h"
 @interface LTSettingArrowItem : LTSettingItem
+
+@property (strong,nonatomic)LTButton *btn;
 
 @end

@@ -11,7 +11,8 @@
 #import "HelpViewController.h"
 #import "LTShareViewController.h"
 #import "MBProgressHUD+MJ.h"
-#import <Availability.h>
+#import "LTProductRcmendViewController.h"
+#import "LTAboutViewController.h"
 @interface LTSettingTableViewController ()<UIAlertViewDelegate>
 @end
 
@@ -53,8 +54,8 @@
     [group2 addItem:[LTSettingArrowItem itemWithIcon:@"MoreHelp" title:@"帮助" destVcClass:[HelpViewController class]]];
     [group2 addItem:[LTSettingArrowItem itemWithIcon:@"MoreShare" title:@"分享" destVcClass:[LTShareViewController class]]];
     [group2 addItem:[LTSettingArrowItem itemWithIcon:@"MoreMessage" title:@"查看消息"]];
-    [group2 addItem:[LTSettingArrowItem itemWithIcon:@"MoreNetease" title:@"产品推荐"]];
-    [group2 addItem:[LTSettingArrowItem itemWithIcon:@"MoreAbout" title:@"关于"]];
+    [group2 addItem:[LTSettingArrowItem itemWithIcon:@"MoreNetease" title:@"产品推荐" destVcClass:[LTProductRcmendViewController class]]];
+    [group2 addItem:[LTSettingArrowItem itemWithIcon:@"MoreAbout" title:@"关于" destVcClass:[LTAboutViewController class]]];
     
     [self.groups addObject:group1];
     [self.groups addObject:group2];

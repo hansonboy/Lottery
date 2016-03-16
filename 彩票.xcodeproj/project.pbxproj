@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		CB0F6D481C12D7C9006CA80D /* LTShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0F6D471C12D7C9006CA80D /* LTShareViewController.m */; };
+		CB0F6DF31C1473EB006CA80D /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0F6DF21C1473EB006CA80D /* Product.m */; };
+		CB0F6DF61C14765D006CA80D /* LTProductRcmendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0F6DF51C14765D006CA80D /* LTProductRcmendViewController.m */; };
+		CB0F6E011C147EBE006CA80D /* LTProductCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0F6DFF1C147EBE006CA80D /* LTProductCollectionViewCell.m */; };
+		CB0F6E021C147EBE006CA80D /* LTProductCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB0F6E001C147EBE006CA80D /* LTProductCollectionViewCell.xib */; };
+		CB0F6E091C149CED006CA80D /* LTAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0F6E081C149CED006CA80D /* LTAboutViewController.m */; };
+		CB0F6E121C14A196006CA80D /* LTSettingDetailItem.m in Sources */ = {isa = PBXBuildFile; fileRef = CB0F6E111C14A196006CA80D /* LTSettingDetailItem.m */; };
 		CB13F8251C0D48AD007C137F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB13F8231C0D48AD007C137F /* Main.storyboard */; };
 		CB13F8271C0D48AD007C137F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB13F8261C0D48AD007C137F /* Assets.xcassets */; };
 		CB13F8351C0D48AD007C137F /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB13F8341C0D48AD007C137F /* __Tests.m */; };
@@ -68,6 +74,8 @@
 		CB5B3DF61C10591700FA27E7 /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = CB5B3DD71C10591700FA27E7 /* znzh.html */; };
 		CB5B3DF81C10594000FA27E7 /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = CB5B3DF71C10594000FA27E7 /* help.json */; };
 		CB5B3DFB1C10867800FA27E7 /* SettingItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CB5B3DFA1C10867800FA27E7 /* SettingItemCell.m */; };
+		CB8722FE1C15284400AC383C /* AboutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB8722FD1C15284400AC383C /* AboutView.xib */; };
+		CB8723011C1530D700AC383C /* LTButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8723001C1530D700AC383C /* LTButton.m */; };
 		CB8893D51C10217400F3A73E /* LTNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8893D41C10217400F3A73E /* LTNavigationController.m */; };
 		CB89967A1C10399C00C803E9 /* UIImage+Resizable.m in Sources */ = {isa = PBXBuildFile; fileRef = CB8996791C10399C00C803E9 /* UIImage+Resizable.m */; };
 		CB8996851C10435300C803E9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB89967E1C10435300C803E9 /* LoginViewController.m */; };
@@ -93,7 +101,18 @@
 /* Begin PBXFileReference section */
 		CB0F6D461C12D7C9006CA80D /* LTShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTShareViewController.h; sourceTree = "<group>"; };
 		CB0F6D471C12D7C9006CA80D /* LTShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTShareViewController.m; sourceTree = "<group>"; };
-		CB13F8171C0D48AD007C137F /* 彩票.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "彩票.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB0F6DF11C1473EB006CA80D /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		CB0F6DF21C1473EB006CA80D /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		CB0F6DF41C14765D006CA80D /* LTProductRcmendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTProductRcmendViewController.h; sourceTree = "<group>"; };
+		CB0F6DF51C14765D006CA80D /* LTProductRcmendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTProductRcmendViewController.m; sourceTree = "<group>"; };
+		CB0F6DFE1C147EBE006CA80D /* LTProductCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTProductCollectionViewCell.h; sourceTree = "<group>"; };
+		CB0F6DFF1C147EBE006CA80D /* LTProductCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTProductCollectionViewCell.m; sourceTree = "<group>"; };
+		CB0F6E001C147EBE006CA80D /* LTProductCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LTProductCollectionViewCell.xib; sourceTree = "<group>"; };
+		CB0F6E071C149CED006CA80D /* LTAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTAboutViewController.h; sourceTree = "<group>"; };
+		CB0F6E081C149CED006CA80D /* LTAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTAboutViewController.m; sourceTree = "<group>"; };
+		CB0F6E101C14A196006CA80D /* LTSettingDetailItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSettingDetailItem.h; sourceTree = "<group>"; };
+		CB0F6E111C14A196006CA80D /* LTSettingDetailItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSettingDetailItem.m; sourceTree = "<group>"; };
+		CB13F8171C0D48AD007C137F /* caipiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = caipiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB13F8241C0D48AD007C137F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB13F8261C0D48AD007C137F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB13F82B1C0D48AD007C137F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -182,6 +201,9 @@
 		CB5B3DF91C10867800FA27E7 /* SettingItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingItemCell.h; sourceTree = "<group>"; };
 		CB5B3DFA1C10867800FA27E7 /* SettingItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingItemCell.m; sourceTree = "<group>"; };
 		CB5B3E021C10940C00FA27E7 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		CB8722FD1C15284400AC383C /* AboutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutView.xib; sourceTree = "<group>"; };
+		CB8722FF1C1530D700AC383C /* LTButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTButton.h; sourceTree = "<group>"; };
+		CB8723001C1530D700AC383C /* LTButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTButton.m; sourceTree = "<group>"; };
 		CB8893D31C10217400F3A73E /* LTNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTNavigationController.h; sourceTree = "<group>"; };
 		CB8893D41C10217400F3A73E /* LTNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTNavigationController.m; sourceTree = "<group>"; };
 		CB8996781C10399C00C803E9 /* UIImage+Resizable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resizable.h"; sourceTree = "<group>"; };
@@ -224,6 +246,43 @@
 			path = Share;
 			sourceTree = "<group>";
 		};
+		CB0F6DEF1C1473B9006CA80D /* ProductRecommend */ = {
+			isa = PBXGroup;
+			children = (
+				CB0F6DF41C14765D006CA80D /* LTProductRcmendViewController.h */,
+				CB0F6DF51C14765D006CA80D /* LTProductRcmendViewController.m */,
+			);
+			path = ProductRecommend;
+			sourceTree = "<group>";
+		};
+		CB0F6DF01C1473DB006CA80D /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				CB0F6DF11C1473EB006CA80D /* Product.h */,
+				CB0F6DF21C1473EB006CA80D /* Product.m */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		CB0F6DFA1C147EA3006CA80D /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				CB0F6DFE1C147EBE006CA80D /* LTProductCollectionViewCell.h */,
+				CB0F6DFF1C147EBE006CA80D /* LTProductCollectionViewCell.m */,
+				CB0F6E001C147EBE006CA80D /* LTProductCollectionViewCell.xib */,
+			);
+			path = Product;
+			sourceTree = "<group>";
+		};
+		CB0F6E031C149637006CA80D /* About */ = {
+			isa = PBXGroup;
+			children = (
+				CB0F6E071C149CED006CA80D /* LTAboutViewController.h */,
+				CB0F6E081C149CED006CA80D /* LTAboutViewController.m */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
 		CB13F80E1C0D48AD007C137F = {
 			isa = PBXGroup;
 			children = (
@@ -237,7 +296,7 @@
 		CB13F8181C0D48AD007C137F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB13F8171C0D48AD007C137F /* 彩票.app */,
+				CB13F8171C0D48AD007C137F /* caipiao.app */,
 				CB13F8301C0D48AD007C137F /* 彩票Tests.xctest */,
 				CB13F83B1C0D48AD007C137F /* 彩票UITests.bundle */,
 			);
@@ -520,6 +579,8 @@
 				CB15F64A1C11CF4B00F8BDB3 /* LTSettingLabelItem.m */,
 				CB15F64B1C11CF4B00F8BDB3 /* LTSettingSwitchItem.h */,
 				CB15F64C1C11CF4B00F8BDB3 /* LTSettingSwitchItem.m */,
+				CB0F6E101C14A196006CA80D /* LTSettingDetailItem.h */,
+				CB0F6E111C14A196006CA80D /* LTSettingDetailItem.m */,
 			);
 			path = Item;
 			sourceTree = "<group>";
@@ -621,6 +682,14 @@
 			path = Html;
 			sourceTree = "<group>";
 		};
+		CB8722F81C1527DF00AC383C /* About */ = {
+			isa = PBXGroup;
+			children = (
+				CB8722FD1C15284400AC383C /* AboutView.xib */,
+			);
+			path = About;
+			sourceTree = "<group>";
+		};
 		CB8996771C10398E00C803E9 /* Catogery */ = {
 			isa = PBXGroup;
 			children = (
@@ -677,6 +746,8 @@
 		CB8996821C10435300C803E9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				CB0F6E031C149637006CA80D /* About */,
+				CB0F6DEF1C1473B9006CA80D /* ProductRecommend */,
 				CB0F6D451C12D7A1006CA80D /* Share */,
 				CB15F6661C11DE2F00F8BDB3 /* Help */,
 				CB15F6521C11D08B00F8BDB3 /* Setting */,
@@ -688,6 +759,7 @@
 		CB8996831C10435300C803E9 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				CB0F6DF01C1473DB006CA80D /* Product */,
 				CB15F66A1C11DE4700F8BDB3 /* Help */,
 				CB15F6421C11CF4B00F8BDB3 /* Item */,
 			);
@@ -697,8 +769,12 @@
 		CB8996841C10435300C803E9 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CB8722F81C1527DF00AC383C /* About */,
+				CB0F6DFA1C147EA3006CA80D /* Product */,
 				CB5B3DF91C10867800FA27E7 /* SettingItemCell.h */,
 				CB5B3DFA1C10867800FA27E7 /* SettingItemCell.m */,
+				CB8722FF1C1530D700AC383C /* LTButton.h */,
+				CB8723001C1530D700AC383C /* LTButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -720,7 +796,7 @@
 			);
 			name = "彩票";
 			productName = "彩票";
-			productReference = CB13F8171C0D48AD007C137F /* 彩票.app */;
+			productReference = CB13F8171C0D48AD007C137F /* caipiao.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CB13F82F1C0D48AD007C137F /* 彩票Tests */ = {
@@ -770,6 +846,7 @@
 				TargetAttributes = {
 					CB13F8161C0D48AD007C137F = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = JKYZTVH438;
 					};
 					CB13F82F1C0D48AD007C137F = {
 						CreatedOnToolsVersion = 7.1;
@@ -815,6 +892,7 @@
 				CB5B3DE11C10591700FA27E7 /* help.html in Resources */,
 				CB5B3DEB1C10591700FA27E7 /* networkconnectedfailed.html in Resources */,
 				CB5B3DEF1C10591700FA27E7 /* qxc_howto.html in Resources */,
+				CB8722FE1C15284400AC383C /* AboutView.xib in Resources */,
 				CB5B3DF81C10594000FA27E7 /* help.json in Resources */,
 				CB5B3DDC1C10591700FA27E7 /* credit_help.html in Resources */,
 				CB5B3DDF1C10591700FA27E7 /* gdy11_howto.html in Resources */,
@@ -834,6 +912,7 @@
 				CB5B3DDD1C10591700FA27E7 /* dlt_howto.html in Resources */,
 				CB5B3DDA1C10591700FA27E7 /* bjdc_howto.html in Resources */,
 				CB5B3DE51C10591700FA27E7 /* jxssc_howto.html in Resources */,
+				CB0F6E021C147EBE006CA80D /* LTProductCollectionViewCell.xib in Resources */,
 				CB15F6611C11D0FA00F8BDB3 /* MBProgressHUD.bundle in Resources */,
 				CB5B3DDB1C10591700FA27E7 /* coupon_help.html in Resources */,
 				CB5B3DF41C10591700FA27E7 /* x3d_howto.html in Resources */,
@@ -874,6 +953,7 @@
 				CB15F6411C11784000F8BDB3 /* DSTool.m in Sources */,
 				CB13F87D1C0D969D007C137F /* LTTabBarButton.m in Sources */,
 				CB0F6D481C12D7C9006CA80D /* LTShareViewController.m in Sources */,
+				CB8723011C1530D700AC383C /* LTButton.m in Sources */,
 				CB13F8741C0D913C007C137F /* LTTabBarViewController.m in Sources */,
 				CB15F6581C11D08B00F8BDB3 /* LTSettingTableViewController.m in Sources */,
 				CB15F64F1C11CF4B00F8BDB3 /* LTSettingItem.m in Sources */,
@@ -882,11 +962,16 @@
 				CB15F66D1C11DE9200F8BDB3 /* LTHelpItem.m in Sources */,
 				CB89967A1C10399C00C803E9 /* UIImage+Resizable.m in Sources */,
 				CB15F6391C1174C800F8BDB3 /* LTScoreViewController.m in Sources */,
+				CB0F6E121C14A196006CA80D /* LTSettingDetailItem.m in Sources */,
 				CB15F6691C11DE2F00F8BDB3 /* HelpViewController.m in Sources */,
+				CB0F6E091C149CED006CA80D /* LTAboutViewController.m in Sources */,
 				CB15F6371C1174C800F8BDB3 /* LotteryNumPushViewController.m in Sources */,
 				CB13F86F1C0D7F05007C137F /* main.m in Sources */,
+				CB0F6E011C147EBE006CA80D /* LTProductCollectionViewCell.m in Sources */,
 				CB13F86E1C0D7F05007C137F /* AppDelegate.m in Sources */,
 				CB15F6601C11D0FA00F8BDB3 /* MBProgressHUD+MJ.m in Sources */,
+				CB0F6DF61C14765D006CA80D /* LTProductRcmendViewController.m in Sources */,
+				CB0F6DF31C1473EB006CA80D /* Product.m in Sources */,
 				CB15F6511C11CF4B00F8BDB3 /* LTSettingSwitchItem.m in Sources */,
 				CB15F6701C11E53000F8BDB3 /* LTHtmlViewController.m in Sources */,
 				CB15F64E1C11CF4B00F8BDB3 /* LTSettingGroup.m in Sources */,
@@ -1026,19 +1111,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "./彩票/Classes/Other/PrefixHeader.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = "";
 				INFOPLIST_FILE = "彩票/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/彩票/Classes/Other/lib/UMSocial_Sdk_4.4",
 					"$(PROJECT_DIR)/彩票/Classes/Other/lib/UMSocial_Sdk_4.1",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JW.--";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = caipiao;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1048,19 +1135,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "./彩票/Classes/Other/PrefixHeader.pch";
 				"GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS[arch=*]" = "";
 				INFOPLIST_FILE = "彩票/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/彩票/Classes/Other/lib/UMSocial_Sdk_4.4",
 					"$(PROJECT_DIR)/彩票/Classes/Other/lib/UMSocial_Sdk_4.1",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JW.--";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = caipiao;
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
